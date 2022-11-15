@@ -29,7 +29,7 @@ app.use(middlewareToken);
 app.use(routerAviones);
 app.use(routerReservas);
 app.use(routerUsuarios);
-app.use(routerVuelos);0
+app.use(routerVuelos);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
