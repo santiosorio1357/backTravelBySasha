@@ -1,0 +1,7 @@
+get http://localhost:3001
+
+PUT http://localhost:3001/usuarios/63546e4a9ecb797a7547e38b
+
+{
+    "nombre":"Emanuel Rico"
+}

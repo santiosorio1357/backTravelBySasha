@@ -1,0 +1,30 @@
+{
+  "name": "travel-by-sasha",
+  "version": "1.0.0",
+  "description": "API TravelbySasha",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marlon-Orrego/TravelbySasha.git"
+  },
+  "author": "SASHA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marlon-Orrego/TravelbySasha/issues"
+  },
+  "homepage": "https://github.com/Marlon-Orrego/TravelbySasha#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
